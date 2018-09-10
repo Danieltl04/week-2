@@ -1,21 +1,23 @@
 //van Daniel 't Lam pizza calculator versie 1'
 
 alert('hoi');
+
 const smallPizza = 4;
-/*const medium pizza = 8
-const large pizza = 13
-const small drankje= 2.5
-const medium drankje = 3
-const medium drankje = 4
+const mediumPizza = 8;
+const largePizza = 13;
+const smallDrankje= 2.5;
+const mediumDrankje = 3;
+const largeDrankje = 4;
 
-var small pizza = prompt("hoeveel small pizza's wilt u bestellen");//de variable en de vragen die gesteld worden
-var medium pizza = prompt("hoeveel medium pizza's wilt u bestellen");
-var large pizza = prompt("hoeveel large pizza's wilt u bestellen");
-var small drankje = prompt("hoeveel small drankjes wilt u bestellen");
-var medium drankje = prompt("hoeveel medium drankjes wilt u bestellen");
-var large drankje = prompt("hoeveel large drankjes wilt u bestellen");*/
 
-/*document.writeln('<br>_______}menu{_______');//schrijft het menu
+var smallpizza = prompt("hoeveel small pizza's wilt u bestellen");//de variable en de vragen die gesteld worden
+var mediumpizza = prompt("hoeveel medium pizza's wilt u bestellen");
+var largepizza = prompt("hoeveel large pizza's wilt u bestellen");
+var smalldrankje = prompt("hoeveel small drankjes wilt u bestellen");
+var mediumdrankje = prompt("hoeveel medium drankjes wilt u bestellen");
+var largedrankje = prompt("hoeveel large drankjes wilt u bestellen");
+
+document.writeln('<br>_______}menu{_______');//schrijft het menu
 document.writeln("<br>prijs small pizza's: $3.99");
 document.writeln("<br>prijs medium pizza's: $7.99");
 document.writeln("<br>prijs large pizza's: $12.99");
@@ -25,35 +27,35 @@ document.writeln("<br>prijs large drankje: $3.99");
 
 
 document.writeln("<br><br> aantal small pizza's: ");//andwoord op vraag small pizza's
-document.writeln(small pizza);
+document.writeln(smallpizza);
 document.write("<br> prijs voor small pizza's: $");
-document.write(small pizza * 4);
+document.write(smallPizza);
 
 document.writeln("<br><br> aantal medium pizza's: ");//andwoord op vraag medium pizza's
-document.writeln(medium pizza);
+document.writeln(mediumpizza);
 document.write("<br> prijs voor medium pizza's: $");
-document.write(medium pizza * 8);
+document.write(mediumPizza);
 
 document.writeln("<br><br> aantal large pizza's: ");//andwoord op vraag large pizza's
-document.writeln(large pizza);
+document.writeln(largepizza);
 document.write("<br> prijs voor large pizza's: $");
-document.write(large pizza * 13);
+document.write(largePizza);
 
 document.writeln("<br><br> aantal small drankjes: ");//andwoord op vraag small drankje
-document.writeln(small drankje);
+document.writeln(smalldrankje);
 document.write("<br> prijs voor small drankjes: $");
-document.write(small drankje  * 2.5);
+document.write(smallDrankje);
 
 document.writeln("<br><br> aantal medium drankjes: ");//andwoord op vraag medium drankje
-document.writeln(medium drankje);
+document.writeln(mediumdrankje);
 document.write("<br> prijs voor medium drankjes: $");
-document.write(medium drankje * 3);
+document.write(mediumDrankje);
 
 document.writeln("<br><br> aantal large drankjes: ");//andwoord op vraag large drankje
-document.writeln(large drankje);
+document.writeln(largedrankje);
 document.write("<br> prijs voor large drankjes: $");
-document.write(large drankje * 4);
+document.write(largeDrankje);
 
 document.write("<br><br> totale prijs: $");//totale prijs
-document.write(small pizza * 4 + medium pizza * 8 + large pizza * 13 + small drankje * 2.5 + medium drankje * 3 + large drankje * 4);// berekening totale prijs
-*/
+document.write(smallPizza + mediumPizza + largePizza + smallDrankje + mediumDrankje + largeDrankje);// berekening totale prijs
+
